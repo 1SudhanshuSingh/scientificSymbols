@@ -1,0 +1,43 @@
+body,html{
+	padding: 0;
+	margin: 0;
+	background: #003366;
+}
+.wrapper h1{
+	text-transform: uppercase;
+	text-align: center;
+	color: #fff;
+	text-shadow: 1px 1.5px #9ecaed;
+}
+.list{
+	float: left;
+	width: 30%;
+}
+.list ul{
+	list-style: none;
+}
+.list ul li{
+	border-bottom: 2px solid #9ecaed;
+	padding: 0.5em;
+	color: #fff;
+	font-weight: 600;
+	cursor: pointer;
+}
+.list ul li:hover{
+	color: #ff6600;
+}
+.symbolRep{
+	float: left;
+	width: 70%;
+}
+.symbolDisplay{
+	top: 0.10em;
+	right: 0.75em;
+	position: fixed;
+	font-size: 32em;
+	color: #f4f4f4;
+	text-shadow: 5px 5px #9ecaed;
+}
+.none{
+	display: none;
+}
